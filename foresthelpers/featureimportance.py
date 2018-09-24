@@ -86,12 +86,8 @@ def displayFeatureImportances(X,
     
     if html==True:
         print(df
-             # .set_index(df.iloc[:,0])
-             # ["Importance"]
               .to_html())
         
     display(df
-            #.set_index(df.iloc[:,0])
-            #["Importance"]
            )
 
